@@ -1,0 +1,20 @@
+{
+    "name": "Profile Creator",
+    "version": "1.0.0",
+    "description": "Store your profile details",
+    "manifest_version": 3,
+    "author": "Mohsin Shaikh",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Profile Creator"
+    },
+    "permissions": [
+        "storage",
+        "tabs",
+        "scripting",
+        "activeTab"
+    ],
+    "host_permissions": [
+        "*://*/*"
+    ]
+}
